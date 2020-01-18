@@ -6,7 +6,7 @@ grid = {}
 cx = cy = 0 
 grid[(cx, cy)] = 'o'
 
-# Coordinate delats (dx, dy) for every possible direction Down, Right, Up, Left.
+# Coordinate deltas (dx, dy) for possible directions: Down, Right, Up, Left.
 deltas = { 
     "D": (0, 1),
     "R": (1, 0),
